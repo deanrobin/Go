@@ -31,6 +31,9 @@ func main() {
 		j = iota
 		k
 	)
+	// := 左边的值不用是赋值过得变量名，且不需要类型 系统会自动判断
+	m := 100
 	fmt.Println(a,b,c,d,e,f,g,h,i,j,k)
 	fmt.Println(unsafe.Sizeof(d))
+	fmt.Println(m)
 }
